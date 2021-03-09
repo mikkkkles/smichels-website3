@@ -1,8 +1,18 @@
 body {
-  background-color: lightblue;
+  background-color: #FFD8E7;
 }
-
+div {
+  background-color: #D8FFE6;
+  color: #9C7CC9;
+  width: 300px;
+  border: 15px #D8EFFF;
+  padding: 50px;
+  margin: 20px;
+}
 h1 {
-  color: navy;
+  color: #F99CCF;
   margin-left: 20px;
+}
+p {
+  color: #9CF9BA
 }

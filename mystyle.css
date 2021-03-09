@@ -1,18 +1,33 @@
 body {
-  background-color: #FFD8E7;
+  height: 600px;
+  background-image: linear-gradient(#fcedf3, #faa5c7);
 }
 div {
   background-color: #D8FFE6;
   color: #9C7CC9;
   width: 300px;
-  border: 15px #D8EFFF;
+  border: 15px solid #ace3fa;
   padding: 50px;
   margin: 20px;
+  border-radius: 25px;
 }
 h1 {
   color: #F99CCF;
   margin-left: 20px;
 }
 p {
-  color: #9CF9BA
+  color: #9C7CC9;
+}
+h2 {
+  width: 100px;
+  height: 100px;
+  background: #9C7CC9;
+  transition: width 2s;
+  border-radius: 25px;
+}
+h2:hover {
+  width: 600px;
+}
+h3 {
+  color: #c5edad;
 }
